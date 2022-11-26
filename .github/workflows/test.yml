@@ -5,7 +5,7 @@ on:
       - master
       - releases/*
   workflow_dispatch:
-  
+
 jobs:
   test-github-output:
     runs-on: ubuntu-latest
@@ -291,7 +291,7 @@ jobs:
           github-token: ${{ secrets.github_token }}
           skip-commit: 'true'
           skip-tag: 'true'
-          git-push: 'false'
+          git-push: 'true'
 
   test-yaml:
     runs-on: ubuntu-latest
