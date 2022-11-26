@@ -291,7 +291,7 @@ jobs:
         with:
           github-token: ${{ secrets.github_token }}
           skip-commit: 'true'
-          skip-tag: 'true'
+          skip-tag: 'false'
           git-push: 'false'
 
   test-yaml:
